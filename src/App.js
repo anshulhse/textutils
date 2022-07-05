@@ -54,7 +54,7 @@ function App() {
   return (
     
     <>
-    <Navbar title="Utilities" mode={mode} toggleMode={toggleMode} />
+    <Navbar title="TextUtilities" mode={mode} toggleMode={toggleMode} />
     <Alert alert={alert} />
     <TextForm  path="/" showAlert={showAlert} mode={mode} heading="Enter the heading" />
     </>
